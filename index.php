@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>TECHNOVATION</title>
+
+  <style>
+
+.button {
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+  }
+  
+  @-webkit-keyframes glowing {
+    0% {
+      background-color: #B20000;
+      -webkit-box-shadow: 0 0 3px #B20000;
+    }
+  
+    50% {
+      background-color: #FF0000;
+      -webkit-box-shadow: 0 0 40px #FF0000;
+    }
+  
+    100% {
+      background-color: #B20000;
+      -webkit-box-shadow: 0 0 3px #B20000;
+    }
+  }
+  
+  @-moz-keyframes glowing {
+    0% {
+      background-color: #B20000;
+      -moz-box-shadow: 0 0 3px #B20000;
+    }
+  
+    50% {
+      background-color: #FF0000;
+      -moz-box-shadow: 0 0 40px #FF0000;
+    }
+  
+    100% {
+      background-color: #B20000;
+      -moz-box-shadow: 0 0 3px #B20000;
+    }
+  }
+  
+  @-o-keyframes glowing {
+    0% {
+      background-color: #B20000;
+      box-shadow: 0 0 3px #B20000;
+    }
+  
+    50% {
+      background-color: #FF0000;
+      box-shadow: 0 0 40px #FF0000;
+    }
+  
+    100% {
+      background-color: #B20000;
+      box-shadow: 0 0 3px #B20000;
+    }
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-color: #B20000;
+      box-shadow: 0 0 3px #B20000;
+    }
+  
+    50% {
+      background-color: #FF0000;
+      box-shadow: 0 0 40px #FF0000;
+    }
+  
+    100% {
+      background-color: #B20000;
+      box-shadow: 0 0 3px #B20000;
+    }}
+  </style>
+  
+</head>
+
+<body>
+  <!-- NAVIGATION-BAR  starts here -->
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.php">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item ">
+         <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+         <li class="nav-item ">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        
+    </div>
+    </li>
+    </ul>
+    
+    <img src="logo2.jpg" width="50" height="50" alt="">
+    <!-- </form> -->
+    </div>
+  </nav>
+  <!-- Navbar ends here -->
+
+
+
+  <!-- CAUROSEL (IMAGE-GALLERY)  starts here -->
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/wallpaperflare.com_wallpaper (1).jpg" alt="the-buzz-img3" width="650"
+          height="600" alt="First slide">
+      </div>
+      <div class="carousel-caption d-none d-md-block  carousel-fade">
+        <h5 class="heading"></h5>
+        <div>
+          <marquee class="marque" id="mark"><b>Department of B.C.A(Science)</b></marquee>
+          <!-- <marquee class="marque" id="mark"><b>Technovation-2023 Registrations LIVE</b></marquee> -->
+        </div>
+        <i class="fa-solid fa-dumbbell"></i>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Technovation-2023 Registrations Started</h2>
+          <div class="text-center my-3">
+
+            <!-- <button class="btn btn-primary" href="register.html"> Click here to REGISTER</button> -->
+            <!-- <a class="btn btn-warning " href="https://www.google.com" role="button"> Click here to REGISTER</a> -->
+
+          </div>
+          <h2>Participate to Show Up your Skills</h2>
+          <p></p>
+        </div>
+
+        <!-- Centered Buttons On Caurosel -->
+
+
+
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img\wallpaperflare.com_wallpaper (5).jpg" alt="the-buzz-img3" width="650"
+          height="600" alt="Second slide">
+      </div>
+
+      <!-- <div class="carousel-caption d-none d-md-block">
+        <h5>First Second label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div> -->
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/wallpaperflare.com_wallpaper.jpg" alt="the-buzz-img3" width="650"
+          height="600" alt="Third slide">
+      </div>
+      <!-- <div class="carousel-item">
+        <img class="d-block w-100"
+          src="https://source.unsplash.com/1400x600/?coffe/800x400?auto=yes&bg=555&fg=333&text=Third slide"
+          alt="Third slide">
+      </div> -->
+      <!-- <div class="carousel-caption d-none d-md-block ">
+        <h5>First Third label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div> -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+  </div>
+  <!-- carousel Ends here -->
+
+ <div class="text-center my-3">
+
+
+<a class="button btn-primary "
+  href="https://docs.google.com/forms/d/1PrgMORnOIcDt4TJCG7OO7e6ySrbhpPlM5o4HsbF3sWQ/edit" role="button"> Click here
+  to REGISTER</a>
+
+</div>
+
+
+  <!-- black-box container starts here -->
+  <div class="container2 mr-3">
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+      <center>
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic"><b>Technovation The Event of 2K23</b></h1>
+        <p class="lead my-3">This Event is oraganised by BCA (Science) Department of Prof. Ramkrishna More Arts Commerce and Science College Akurdi, Pune. </p>
+       
+      </div>
+    </center>
+    </div>
+  </div>
+
+
+  <!-- cards starts here -->
+  <div class="container my-5 flex-column gx-3 ">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Codethon</strong>
+            <h3 class="mb-0">Show up Skills</h3>
+            <div class="mb-1 text-muted">Mar 15</div>
+            <div class="mb-1 text-muted">Time - 1:00pm to 2:00pm</div>
+            <p class="card-text mb-auto">It's also important to manage your time effectively. Don't get stuck on any one problem for too long,
+               and don't be afraid to move on to another problem if you're stuck.
+                Work efficiently and stay focused, and you'll be on your way to success.</p>
+                <br>
+            <a href="events.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+           
+            <img class="bd-placeholder-img" width="300" height="250" 
+            src="Free Vector _ Code typing concept illustration.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">Debate Competition</strong>
+            <h3 class="mb-0">Speak Up</h3>
+            <div class="mb-1 text-muted">Mar 16</div>
+            <div class="mb-1 text-muted">Time - 10:00am to 12:00 noon</div>
+            <p class="mb-auto">Debating is a powerful skill that requires critical thinking, effective communication, and the ability to persuade others. Whether you're competing 
+              in a formal debate or just engaging in a friendly argument, there are a few key strategies that can help you succeed.</p>
+            <a href="events.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+           
+            <img class="bd-placeholder-img" width="300" height="250"
+              src="Meeting Customizable Isometric Illustrations _ Amico Style.png" alt="ERROR">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Poster Presentation</strong>
+            <h3 class="mb-0">Be Creative</h3>
+            <div class="mb-1 text-muted">Mar 15</div>
+            <div class="mb-1 text-muted">Time - 9:00am</div>
+            <p class="card-text mb-auto">Poster presentations are an effective way to communicate research findings, project results, and other types of information in a visual and interactive format. Whether you're 
+              presenting in a science fair, academic conference, or other setting, there are several key strategies that can help you create a winning poster.</p>
+            <a href="events.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+           
+            <img class="bd-placeholder-img" width="300" height="250" src="Art of Creativeness.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">Project Hub</strong>
+            <h3 class="mb-0">Be Innovative</h3>
+            <div class="mb-1 text-muted">Mar 16</div>
+            <div class="mb-1 text-muted">Time - 10:00am to 12:00 noon</div>
+            <p class="mb-auto">Projects can range from website development to software engineering, and presenting your project effectively is key to its success. Whether you're presenting
+               to a class, a client, or a group of stakeholders, there are several key strategies that can help you create a winning project presentation. </p>
+               <br>
+            <a href="events.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+
+           
+            <img class="bd-placeholder-img" width="300" height="250" src="Free Vector _ Search concept for landing page.jpeg"
+              alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- cards ends here -->
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+  <!---heading line for teachers section---------->
+  <figure class="text-center ">
+    <blockquote class="blockquote">
+      <h1>
+        <p>---BCA (Science) Faculties---</p>
+      </h1>
+    </blockquote>
+   <br>
+  </figure>
+  <!-- ------------TEACHERS CARDS STSRTS HERE---------------- -->
+  <div class="container marketing my-5">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        
+          <img class="rounded-circle" src="img/more-mam.jpeg" alt="Generic placeholder image-2" width="140"
+          height="140">
+        <h2>Prof. Anuradha. R. More</h2>
+        <figcaption class="blockquote-footer my-2">
+          
+         <cite title="Source Title">HOD--</cite><cite title="Source Title"></cite>
+        </figcaption>
+        <p>Qualification: M.Sc. [Computer Science].
+        </p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+       
+        <img class="rounded-circle" src="img/supriya-phatangare.jpeg" alt="Generic placeholder image-1"
+          width="140" height="140">
+        <h2>Prof. Supriya. R. Phatangare</h2>
+        <figcaption class="blockquote-footer my-2">
+          <!-- Vice Principal--<cite title="Source Title">Commerce Department</cite> -->
+        </figcaption>
+        <p>Qualification: M.Sc. [Computer Science].</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="img/sheetal-mam.jpeg" alt="Generic placeholder image-3"
+          width="140" height="140">
+        <h2>Prof. Shital. V. Deshmukh</h2>
+        <figcaption class="blockquote-footer my-2">
+          <!-- Vice Principal--<cite title="Source Title"> Botany Department </cite> -->
+        </figcaption>
+        <p>Qualification: M.Sc. [Computer Science].</p>
+        <br>
+      <br>
+      <br>
+    
+      </div><!-- /.col-lg-4 -->
+   
+      <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="img/manali-mam.jpeg" alt="Generic placeholder image-1"
+    width="140" height="140">
+        <h2>Prof. Manali. R. Buchade</h2>
+        <figcaption class="blockquote-footer my-2">
+        </figcaption>
+        <p>Qualification: MCA (Management).</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="img/karbhari.jpg" alt="Generic placeholder image-1"
+    width="140" height="140">
+        <h2>Prof. Reshma. R. Karbhari</h2>
+        <figcaption class="blockquote-footer my-2">
+        
+        </figcaption>
+        <p>Qualification: M.Sc. [Computer Science].</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="img/lata Gore.jpeg" alt="Generic placeholder image-1"
+    width="140" height="140">
+        <h2>Prof. Lata. B. Gore</h2>
+        <figcaption class="blockquote-footer my-2">
+        
+        </figcaption>
+        <p>Qualification: M.Sc. [Computer Science].</p>
+         <br>
+         <br>           
+      </div><!-- /.col-lg-4 -->
+      <div class="row">
+        
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="img/new mam.jpeg" alt="Generic placeholder image-1"
+    width="140" height="140">
+        <h2>Prof. Kalyani. M. Gholap</h2>
+        <figcaption class="blockquote-footer my-2">
+        
+        </figcaption>
+        <p>Qualification: M.Sc. [Computer Science].</p>
+        <br>
+        <br>
+      </div><!-- /.col-lg-4 -->
+    
+    </div><!-- /.row -->
+  </div>
+<!-- ------------teachers cards ends here-------------------------------------------------------- -->
+
+          <!--------------- About section Starts ------------------->
+          <div class="card text-center">
+            <h2 class="card-title my-5">...Some Key Highlights...</h2>
+            <h5>
+              </h3>
+             
+            </h5>
+          </div>
+          <!-- --------------------------------------------------------------------- -->
+          
+              <div class="container my-4">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+              <div class="col-md-7" >
+                <h2 class="featurette-heading fw-normal lh-1">Pune District Education Association, Pune.</h2>
+                  
+                <p class="lead"> P.D.E.A. is a parent institute and backbone of our College with a sole aim of educating even in the rural families of Pune District and to create the bright future generation.
+                    
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                  src="img\college1.jpg" alt="">
+               
+              </div>
+            </div>
+          </div>
+          <!--(1 ends) -----(2 started)--------------------------------------------------------------------------------------------------------- -->
+
+          <div class="container my-4">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+              <div class="col-md-7 col order-md-2">
+               
+                <p class="lead">Our institute has won the "Best Institute Award" in the Year 
+                  2000 from Government of Maharashtra in the regime of former President Late. Hon. Mr. Ramkrishna More. During 1941 to 1955 P.D.E.A.
+                </p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                  src="college.jpeg" alt="">
+             
+              </div>
+            </div>
+          </div>
+
+          <!-- -(2 ends )------(3 started)------------------------------------------------------------------------------------------------ -->
+         <div class="container my-4">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1"> </h2>
+                <p class="lead">To discharge quality education with a commitment to excellence through student centric efforts, activities and learning services by providing excellent infrastructure with advanced technological facilities at college
+                   where students achieve their educational objectives while meeting institutional standards in order to compete successfully in the 21st century.
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                  src="college2.jpeg" alt="">
+             
+              </div>
+            </div>
+          </div>
+
+
+          <!-- -----------footer starts here----------------------- -->
+
+
+          <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="events.html" class="nav-link px-2 text-muted">Events</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+              </ul>
+              <p class="text-center text-muted">© 2023 Technovation, Inc</p>
+              <p class="text-center text-muted">This Website is Developed By- Abhishek Patil, Sandesh Kokad & Umesh Bhingare</p>
+              <p class="text-center text-muted">Department of BCA Science All Rights Reserved </p>
+            </footer>
+          </div>
+
+
+
+
+          <!-- -----------footer ends   here----------------------- -->
+
+
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+<!-- https://source.unsplash.com/1400x900/?animals,coding  -->
+
+</html>
